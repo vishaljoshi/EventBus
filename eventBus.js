@@ -1,6 +1,6 @@
 // Code goes here
 
-// JavaScript Document 
+// JavaScript Document  
 
 var evntObj = function(name,data){
 this.name=name;

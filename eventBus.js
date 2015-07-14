@@ -1,17 +1,18 @@
 // Code goes here
-
+//author: vishal Joshi
 // JavaScript Document
 
 var evntObj = function(name,data){
 this.name=name;
 this.data=data;
-  this.getName= function(){ 
+  this.getName= function(){
     return this.name;
   }
   this.getData= function(){
     return this.data;
   }
 }
+
 
 
 var eventBus =function(){

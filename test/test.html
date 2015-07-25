@@ -1,0 +1,38 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+  <script src="./../eventBus.js"></script>
+</head>
+<body>
+  <!--
+  <div id="mocha"></div>
+
+  <script src="./../eventBus.js"></script>
+  <script src="http://chaijs.com/chai.js"></script>
+  <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+
+  <script>mocha.setup('bdd');
+  expect = chai.expect;
+  </script>
+  <script src="testcase.js"></script>
+
+  <script>
+    mocha.checkLeaks();
+
+    mocha.run();
+  </script> -->
+
+  <div id="mocha"></div>
+   <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+   <script src="http://chaijs.com/chai.js"></script>
+   <script>mocha.setup('bdd')</script>
+   <script>expect = chai.expect</script>
+   <script src="testcase.js"></script>
+   <script>
+     mocha.checkLeaks();
+     mocha.run();
+   </script>
+</body>
+</html>
